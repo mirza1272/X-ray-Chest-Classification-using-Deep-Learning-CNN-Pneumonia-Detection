@@ -28,7 +28,7 @@ xraychest/
 Due to GitHub restrictions (file count and size limits), the dataset is uploaded separately on Google Drive.  
 You can access and download the full dataset from the link below:
 
-🔗 [Download Dataset Folder](https://drive.google.com/drive/folders/1cf-e_iiOYinKNYSlE-cKxU2hTmBQgdUs?usp=sharing)
+🔗 [Download Dataset Folder](https://drive.google.com/drive/folders/1XxjysmCAgsk6PmByo1OhzGgxpXdlUfdt?usp=sharing)
 
 After downloading, extract or move the dataset folder into your project root so the structure matches the one shown above.
 
