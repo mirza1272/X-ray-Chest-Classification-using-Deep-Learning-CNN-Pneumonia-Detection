@@ -7,6 +7,7 @@ This project is a Convolutional Neural Network (CNN) based image classifier that
 ## 🗂 Dataset Structure
 
 <pre>
+xraychest_cnn_model.ipynb
 xraychest/
 │
 ├── train/
@@ -15,11 +16,9 @@ xraychest/
 │   └── Pneumonia_virus/
 │
 ├── test/
-│   ├── Normal/
-│   ├── Pneumonia_bacteria/
-│   └── Pneumonia_virus/
-│
-└── xraychest_cnn_model.ipynb
+    ├── Normal/
+    ├── Pneumonia_bacteria/
+    └── Pneumonia_virus/
 </pre>
 
 
