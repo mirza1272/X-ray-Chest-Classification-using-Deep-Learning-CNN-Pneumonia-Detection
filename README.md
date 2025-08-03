@@ -1,8 +1,6 @@
-# X-ray Chest Classification using CNN 🫁📊
+# X-ray Chest Classification using Deep Learning 🫁📊
 
-This project is a Convolutional Neural Network (CNN) based image classifier that detects chest conditions (Normal, Pneumonia – viral or bacterial) from X-ray images. It uses data augmentation and keras-based training for accuracy and generalization.
-
-> 📦 **Note:** Due to GitHub's file upload limits, the full dataset is uploaded as a `.rar` archive. Please extract it manually after cloning.
+This project is a **Convolutional Neural Network (CNN)** based image classifier that detects chest conditions (Normal, Pneumonia – viral or bacterial) from X-ray images. It uses data augmentation and Keras-based training for accuracy and generalization.
 
 ---
 
@@ -22,6 +20,17 @@ xraychest/
 │   ├── Pneumonia_bacteria/
 │   └── Pneumonia_virus/
 </pre>
+
+---
+
+## 📥 Download Dataset
+
+Due to GitHub restrictions (file count and size limits), the dataset is uploaded separately on Google Drive.  
+You can access and download the full dataset from the link below:
+
+🔗 [Download Dataset Folder](https://drive.google.com/drive/folders/1cf-e_iiOYinKNYSlE-cKxU2hTmBQgdUs?usp=sharing)
+
+After downloading, extract or move the dataset folder into your project root so the structure matches the one shown above.
 
 ---
 
@@ -48,17 +57,17 @@ xraychest/
 
 ## 📊 Model Performance
 
-| Attempt | Accuracy | Overfitting |
-|--------|----------|-------------|
-| Try 1  | > 0.81   | Slightly overfit |
+| Attempt | Accuracy | Overfitting       |
+|--------|----------|-------------------|
+| Try 1  | > 0.81   | Slightly overfit  |
 | Try 2  | 0.78     | No overfitting ✅ |
-| Try 3  | 0.79     | Slightly overfit |
+| Try 3  | 0.79     | Slightly overfit  |
 
 ---
 
 ## 📈 Training Visualizations
 
-Training and validation accuracy and loss graphs are plotted for monitoring overfitting and performance during training.
+Training and validation accuracy/loss graphs are plotted to monitor performance and overfitting during training.
 
 ---
 
@@ -75,21 +84,21 @@ Model checkpoint and early stopping were used for better generalization.
 
 ## 📂 Run Notebook
 
-The main code resides in:  
+The full code resides in:  
 📄 **`xraychest_cnn_model.ipynb`**
 
-Make sure to mount drive / adjust data paths accordingly.
+Make sure to mount your drive or adjust data paths if using Colab.
 
 ---
 
 ## 📌 Notes
 
-- Image size used: 96x96 for faster training.
-- Used ImageDataGenerator for data augmentation.
-- Model saved as `best_model.keras`.
+- Image size used: `96x96` for faster training
+- Used `ImageDataGenerator` for augmentation
+- Final model saved as: `best_model.keras`
 
 ---
 
 ## 📬 Author
 
-Built by **Haseeb ur Rahman** as part of deep learning hands-on training.
+Built by **Haseeb ur Rahman** as part of Deep Learning hands-on training.
