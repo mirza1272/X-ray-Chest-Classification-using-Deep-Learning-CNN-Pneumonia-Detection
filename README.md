@@ -32,6 +32,7 @@ xraychest/
 - Matplotlib
 - CNN (Convolutional Neural Networks)
 - ImageDataGenerator (for augmentation)
+- Google Colab
 
 ---
 
