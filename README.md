@@ -2,6 +2,8 @@
 
 This project is a Convolutional Neural Network (CNN) based image classifier that detects chest conditions (Normal, Pneumonia – viral or bacterial) from X-ray images. It uses data augmentation and keras-based training for accuracy and generalization.
 
+> 📦 **Note:** Due to GitHub's file upload limits, the full dataset is uploaded as a `.rar` archive. Please extract it manually after cloning.
+
 ---
 
 ## 🗂 Dataset Structure
@@ -16,12 +18,10 @@ xraychest/
 │   └── Pneumonia_virus/
 │
 ├── test/
-    ├── Normal/
-    ├── Pneumonia_bacteria/
-    └── Pneumonia_virus/
+│   ├── Normal/
+│   ├── Pneumonia_bacteria/
+│   └── Pneumonia_virus/
 </pre>
-
-
 
 ---
 
